@@ -1,5 +1,6 @@
 import { Inter } from "@next/font/google";
 import Head from "next/head";
+import Items from "./items";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -16,6 +17,7 @@ export default function Home() {
         <h1 className="text-2xl font-semibold text-center mt-4">
           Sri Lankan Food Recipes
         </h1>
+        <Items />
       </main>
     </>
   );
